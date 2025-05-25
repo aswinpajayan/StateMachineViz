@@ -1,0 +1,6 @@
+{
+  "name": "Hierarchical State Machine Visualizer",
+  "description": "A web application for visualizing, creating, and modifying hierarchical state machines with a Node-RED like UI and vertical flow.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

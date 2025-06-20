@@ -78,8 +78,8 @@ The application consists of several key components and contexts:
     *   A modern web browser that supports ES Modules (e.g., Chrome, Firefox, Edge, Safari).
 2.  **Running the Application:**
     *   Clone the repository or download the project files.
-    *   Open the `index.html` file directly in your web browser. No build step is required for basic operation due to the use of ES modules and CDN for Tailwind.
-    *   Alternatively, serve the project directory using a simple HTTP server (e.g., `npx serve .`).
+    *   `npm install` to install dependencies
+    *   `npm run dev` to run the app
 3.  **Interacting with the Application:**
     *   **Loading Machines:** Default machines are loaded on startup. Use the "Upload" button in the Top Bar to load additional state machines from a JSON file (see `default-state-machine.ts` for an example of the expected format).
     *   **Selecting a Machine:** Click on a machine name in the "Explorer" sidebar to make it active on the canvas.
